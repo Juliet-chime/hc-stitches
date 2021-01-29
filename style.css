@@ -1,0 +1,451 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+}
+
+/* This is logo-menu style */
+#logo-menu{
+    width: 100%;
+    height: 150px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-left: 30px;
+}
+
+#logo img{
+    width: 100%;
+}
+
+#menu{
+    width:700px;
+    float: right;
+    margin-top: 60px;
+    margin-right: 20px;
+}
+
+#menu a{
+    background:#C4019F;
+    color: white;
+    width: 150px;
+    padding: 10px;
+    margin-left: 40px;
+    border: ridge white;
+    text-decoration: none;
+    font-size: 20px;
+    border-top-left-radius:10px ;
+    border-bottom-right-radius:10px ;
+}
+
+#menu a:hover{
+    background:white;
+    color:#C4019F;
+    border: dotted #C4019F;   
+}
+/* logo-menu style ends here */
+
+/* banner-text style starts here */
+#banner{
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+
+#text{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    bottom: 100px;
+    margin-left: 20px;
+}
+
+#text p{
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    background-color:#C4019F ;
+    border: dashed white;
+    padding: 2px;
+    line-height: 50px;
+}
+/* banner-text style ends here */
+
+/* This is design-about style */
+#design-about{
+    width: 100%;
+    background: rgb(248, 243, 243);
+}
+#design{
+    
+}
+
+.circle1{
+width: 200px;
+height: 200px;
+background:#C4019F;
+border-radius: 100%;
+position: absolute;
+left: 50px;
+opacity: 0.2;
+}
+
+.circle2{
+    width: 200px;
+    height: 200px;
+    background:#C4019F;
+    border-radius: 100%;
+    position: absolute;
+    right: 20px;
+    opacity: 0.2;
+    }
+
+.small-circle1{
+    width: 100px;
+    height: 100px;
+    background:#b988b0;
+    border-radius: 100%;
+    position: absolute;
+    left: 20px;
+    opacity: 0.5;
+}
+
+.small-circle2{
+    width: 70px;
+    height: 70px;
+    background:#b988b0;
+    border-radius: 100%;
+    position: absolute;
+    right: 130px;
+    opacity: 0.5;
+  
+}
+
+#about{
+    width: 850px;
+    margin: auto;
+}
+
+#about h1{
+   text-align:center; 
+   background:#C4019F; 
+   color: white; 
+   border-radius: 20px;
+   margin: 5px;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#about p{
+    text-align: center;
+    padding: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: sans-serif;
+    color: #C4019F;
+}
+/*  design-about style ends here */
+
+/* This is vision-mission */
+
+#vision-mission{
+    width: 100%;
+    margin-top: 30px;
+
+}
+
+.image{
+    width: 400px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 40px;
+    margin-bottom: 5px;
+}
+
+#img1{
+    width: 350px;
+    height: 250px;
+    border: solid;
+    display: inline-block;
+    margin-left: 25px;
+    background-image: url(images/eye.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    box-shadow: 5px 2px 3px rgba(196, 1, 159, 0.4) ;
+}
+
+#img2{
+    width: 350px;
+    height: 250px;
+    border: solid;
+    display: inline-block;
+    margin-left: 25px;
+    background-image: url(images/mission.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.8;
+    box-shadow: 5px 2px 3px rgba(196, 1, 159, 0.4) ;
+}
+
+#img3{
+    width: 350px;
+    height: 250px;
+    border: solid;
+    display: inline-block;
+    margin-left: 25px;
+    background-image: url(images/wear.jpg);
+    background-repeat: no-repeat;
+    opacity: 1;
+    background-size: cover;
+    box-shadow: 5px 2px 3px rgba(196, 1, 159, 0.4) ;
+}
+
+#before-button{
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    background: rgb(248, 243, 243);
+}
+
+#before1{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+    background-image: url(images/shop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#before2{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-bottom: 5px;
+}
+/* This is vision-mission ends here*/
+
+ /* This is form0 starts here */
+#form0{
+    width: 100%;
+}
+#form1{
+    background:white;
+    width: 400px;
+    border:groove  rgba(196, 1, 159, 1) ;
+    margin-left: 500px;
+    border-radius: 20px;
+    /* height: 500px; */
+}
+
+input[type=text]{
+    margin-left: 45px;
+}
+
+input{
+    width: 30%;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: dotted;
+    margin-left: 20px;
+    background: rgba(196, 1, 159, 0.4);
+}
+label{
+    color: rgba(196, 1, 159, 1);
+    font-size: 18px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+input[type=email]{
+    margin-left: 82px;
+}
+
+input[type=date]{
+    margin-left: 30px;
+}
+
+input[type=number]{
+    margin-left: 15px;
+}
+
+
+input[type=password]{
+    margin-left: 55px;
+}
+
+input[type=radio]{
+    width: 10%;
+}
+
+input[name=gender]{
+    color: rgba(196, 1, 159, 1) ;
+}
+
+button{
+    width: 200px;
+    background:rgba(196, 1, 159, 1);
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: groove white;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+::placeholder{
+    color: white;
+}
+/* This is form0 ends here */
+
+
+/* This logo-menu responsive */
+@media screen and (max-width: 880px){
+    #logo{
+        margin-left: 150px;
+    }
+
+    #menu a{
+        width: 100%;
+        display: block;
+        margin-left: 0px;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+
+    #menu{
+        width: 100%;
+        margin-top:0px;
+        margin-right:0px;
+    }
+/* This is banner-text responsive */
+    #text{
+        width: 250px;
+        height: 100px;
+       
+        position: absolute;
+        top: 500px;
+        margin-left: 10px;
+    }
+
+    #text p{
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: white;
+        background-color:#C4019F ;
+        border: dashed white;
+        padding: 2px;
+        line-height: unset;
+    }
+
+    /* This is design-about responsive */
+.circle1{
+    width: 200px;
+    height: 200px;
+    background:#C4019F;
+    border-radius: 100%;
+    position: absolute;
+    left: 100px;
+    opacity: 0.2;
+    }
+    
+    .circle2{
+        width: 200px;
+        height: 200px;
+        background:#C4019F;
+        border-radius: 100%;
+        position: absolute;
+        right: 100px;
+        opacity: 0.2;
+        }
+    
+    .small-circle1{
+        width: 70px;
+        height: 70px;
+        background:#b988b0;
+        border-radius: 100%;
+        position: absolute;
+        left: 190px;
+        opacity: 0.3;
+    }
+    
+    .small-circle2{
+        width: 70px;
+        height: 70px;
+        background:#b988b0;
+        border-radius: 100%;
+        position: absolute;
+        right: 190px;
+        opacity: 0.3;
+      
+    }
+
+    #about{
+        width: 450px;
+        height: 350px;
+        position: absolute;
+        left: 20px;
+        top: 780px;
+    }
+
+    #about h1{
+        text-align:center; 
+        background:#C4019F; 
+        color: white; 
+        border-radius: 20px;
+        margin: 5px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        margin-top: 40px;
+     }
+     
+     #about p{
+         text-align: center;
+         padding: 5px;
+         font-size: 16px;
+         line-height: 1.5;
+         font-family: sans-serif;
+         color: #C4019F;
+     }
+     
+     /* before-button responsive starts here */
+
+     #before1{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    
+    #before2{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+
+    #before-button{
+        display: block;
+    }
+
+/* This is form0 responsive */
+    #form1{
+        margin-left: 0px;
+        border-radius: 20px;
+    }
+
+    #form0{
+        width: 400px;
+        margin-left: 50px;
+    }
+}
