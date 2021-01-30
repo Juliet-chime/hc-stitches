@@ -161,14 +161,15 @@ opacity: 0.2;
 #vision-mission{
     width: 100%;
     margin-top: 30px;
+    border: solid;
 }
 
 .image{
     width: 400px;
-    height: 300px;
     display: inline-block;
     margin-left: 40px;
     margin-bottom: 5px;
+    border: solid;
 }
 
 #img1{
@@ -320,6 +321,17 @@ button{
     background-color:rgba(196, 1, 159, 1); 
     margin-top: 10px;
 }
+
+#top p{
+    text-align: right;
+    padding: 10px;
+}
+
+#top a{
+    color: white; 
+    text-decoration: none;
+     font-size: 18px;
+}
 /* This logo-menu responsive */
 @media screen and (max-width: 880px){
     #logo{
@@ -404,10 +416,9 @@ button{
 
     #about{
         width: 450px;
-        height: 350px;
         position: absolute;
         left: 20px;
-        top: 780px;
+        top: 900px;
     }
 
     #about h1{
@@ -434,8 +445,28 @@ button{
 
      #vision-mission{
         width: 100%;
-        margin-top: 530px;
-    
+        margin-top: 650px;
+    }
+
+    .image{
+        width: 100%;
+        display:block;
+        margin: 0px;
+    }
+
+    #img1{
+        margin: 0px;
+        display: block;
+    }
+
+    #img2{
+        margin: 0px;
+        display: block;
+    }
+
+    #img3{
+        margin: 0px;
+        display: block;
     }
 
      #before1{
@@ -470,8 +501,7 @@ button{
     }
 
     /* this is top responsive */
-
     #top p{
-        text-align: center;
+        text-align: center;     
     }
 }
