@@ -444,9 +444,8 @@ button{
      /* before-button responsive starts here */
 
      #vision-mission{
-        width: 75%;
+        width: 100%;
         margin-top: 650px;
-        margin-left: 50px;
     }
 
     .image{
@@ -454,18 +453,7 @@ button{
         display:inline-block;
         margin: 0px;
     }
-
-    #img1{
-        margin: 0px;
-    }
     
-    #img2{
-        margin: 0px;
-    }
-
-    #img3{
-        margin: 0px;
-    }
 
      #before1{
         width: 100%;
