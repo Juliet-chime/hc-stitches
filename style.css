@@ -134,6 +134,7 @@ opacity: 0.2;
 #about{
     width: 850px;
     margin: auto;
+    border: solid;
 }
 
 #about h1{
@@ -466,5 +467,11 @@ button{
 
     #before2 p{
          padding: 10px;
+    }
+
+    /* this is top responsive */
+
+    #top p{
+        text-align: center;
     }
 }
