@@ -444,29 +444,27 @@ button{
      /* before-button responsive starts here */
 
      #vision-mission{
-        width: 100%;
+        width: 75%;
         margin-top: 650px;
+        margin-left: 50px;
     }
 
     .image{
         width: 100%;
-        display:block;
+        display:inline-block;
         margin: 0px;
     }
 
     #img1{
         margin: 0px;
-        display: block;
     }
-
+    
     #img2{
         margin: 0px;
-        display: block;
     }
 
     #img3{
         margin: 0px;
-        display: block;
     }
 
      #before1{
