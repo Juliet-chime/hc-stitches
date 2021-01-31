@@ -87,6 +87,10 @@ img{
     background: rgb(248, 243, 243);
 }
 
+#design{
+    border: solid;
+}
+
 .circle1{
 width: 200px;
 height: 200px;
@@ -442,10 +446,9 @@ button{
 
     #about{
         width: 100%;
-        height: 500px;
         position: absolute;
         left: 0px;
-        top: 900px;
+        top: 880px;
     }
 
     #about h1{
@@ -466,6 +469,7 @@ button{
          line-height: 1.5;
          font-family: sans-serif;
          color: #C4019F;
+         border: solid;
      }
      
     /* design-about responsive ends here */
