@@ -399,12 +399,12 @@ button{
 
     #text p{
         font-weight: bold;
-        font-size: 20px;
+        font-size: 16px;
         text-align: center;
         color: white;
         background-color:#C4019F ;
         border: dashed white;
-        padding: 2px;
+        padding: 0px;
         line-height: unset;
     }
 
