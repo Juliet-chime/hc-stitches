@@ -7,13 +7,6 @@
 #container{
     width: 100%;
 }
-
-#top{
-
-}
-
-#top a{
-}
 /* This is logo-menu style */
 #logo-menu{
     width: 100%;
@@ -128,12 +121,12 @@ opacity: 0.2;
 }
 
 .small-circle2{
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     background:#b988b0;
     border-radius: 100%;
     position: absolute;
-    right: 130px;
+    right: 150px;
     opacity: 0.5;
   
 }
@@ -220,7 +213,7 @@ opacity: 0.2;
 #before1{
     width: 500px;
     height: 500px;
-    margin-left: 100px;
+    margin-left: 115px;
     margin-bottom: 5px;
     background-image: url(images/shop.jpg);
     background-repeat: no-repeat;
@@ -230,7 +223,7 @@ opacity: 0.2;
 #before2{
     width: 500px;
     height: 500px;
-    margin-left: 100px;
+    margin-left: 115px;
     margin-bottom: 5px;
 }
 
