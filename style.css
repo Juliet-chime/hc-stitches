@@ -262,7 +262,7 @@ input[type=text]{
 }
 
 input{
-    width: 30%;
+    width: 50%;
     padding-bottom: 10px;
     margin-bottom: 20px;
     margin-top: 10px;
@@ -317,6 +317,7 @@ button{
 
 ::placeholder{
     color: white;
+    padding: 4px;
 }
 /* This is form0 ends here */
 
@@ -360,6 +361,10 @@ button{
        color: white;
        padding-left: 10px; 
        padding-bottom: 10px;
+}
+
+#footer .fa{
+    padding-left: 30px;
 }
 /* This is mobile responsive */
 @media screen and (max-width: 880px){
@@ -533,6 +538,15 @@ button{
         margin-left: 0px;
     }
 
+    #before2 p{
+        text-align: center; 
+        margin-top: 20px; 
+        line-height: 1.2; 
+        color: #C4019F; 
+        text-align: justify;
+        padding: 10px;
+    }
+
     #before-button{
         display: block;
     }
@@ -546,16 +560,36 @@ button{
     }
 
     #form1{
-        background:white;
         width: 100%;
-        border:groove  rgba(196, 1, 159, 1) ;
         margin-left: 0px;
-        border-radius: 20px;
+        margin-top: 100px;
     }
 
     button{
-        margin-left: 100px;
+        margin-left: 80px;
     }
+
+    input[type=text]{
+        margin-left: 45px;
+    }
+
+/*     
+    input[type=email]{
+        margin-left: 82px;
+    }
+    
+    input[type=date]{
+        margin-left: 30px;
+    }
+    
+    input[type=number]{
+        margin-left: 15px;
+    }
+    
+    
+    input[type=password]{
+        margin-left: 55px;
+    } */
     /* form0 responsive ends here */
 
     /* this is top responsive */
@@ -568,6 +602,10 @@ button{
 #footer a{
     color: white;
     padding-left: 0px;
+}
+
+#footer .fa{
+    padding-left: 60px;
 }
 /* footer responsive ends here */
 }
