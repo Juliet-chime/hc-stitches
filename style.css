@@ -8,6 +8,12 @@
     width: 100%;
 }
 
+#top{
+
+}
+
+#top a{
+}
 /* This is logo-menu style */
 #logo-menu{
     width: 100%;
@@ -357,9 +363,13 @@ button{
 }
 /* This is mobile responsive */
 @media screen and (max-width: 880px){
+    
+#top a{
+    font-size: 13px;
+}
 /* This logo-menu responsive */
     #logo{
-        margin-left: 150px;
+        margin-left: 100px;
     }
 
     #menu a{
@@ -407,8 +417,9 @@ button{
     background:#C4019F;
     border-radius: 100%;
     position: absolute;
-    left: 100px;
+    left: 120px;
     opacity: 0.2;
+    margin-top: 20px;
     }
     
     .circle2{
@@ -417,8 +428,9 @@ button{
         background:#C4019F;
         border-radius: 100%;
         position: absolute;
-        right: 100px;
+        right: 158px;
         opacity: 0.2;
+        margin-top: 20px;
         }
     
     .small-circle1{
@@ -427,7 +439,7 @@ button{
         background:#b988b0;
         border-radius: 100%;
         position: absolute;
-        left: 190px;
+        left: 150px;
         opacity: 0.3;
     }
     
@@ -437,7 +449,7 @@ button{
         background:#b988b0;
         border-radius: 100%;
         position: absolute;
-        right: 190px;
+        right: 180px;
         opacity: 0.3;
       
     }
@@ -447,7 +459,7 @@ button{
         height: 65%;
         position: absolute;
         left: 0px;
-        top: 880px;
+        top: 820px;
     }
 
     #about h1{
